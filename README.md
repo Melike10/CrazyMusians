@@ -61,7 +61,7 @@ Request Example:
 
 Response Example:
 ```json
-Copy code
+
 {
     "id": 3,
     "name": "John Doe",
