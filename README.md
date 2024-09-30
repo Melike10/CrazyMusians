@@ -4,7 +4,7 @@ This project is a simple ASP.NET Core Web API for managing a list of musicians. 
 
 ## Technologies Used
 
-- **.NET 6**
+- **.NET 8**
 - **ASP.NET Core**
 - **Swagger**
 - **Newtonsoft.Json** for handling JSON Patch
@@ -51,7 +51,7 @@ Creates a new musician. The ID is automatically generated.
 
 Request Example:
 ```json
-Copy code
+
 {
     "name": "John Doe",
     "job": "Jazz Musician",
@@ -76,7 +76,7 @@ Updates an existing musician's information.
 
 Request Example:
 ```json
-Copy code
+
 {
     "id": 1,
     "name": "Ahmet Çalgı",
@@ -91,7 +91,7 @@ Partially updates a musician’s fun specialty using JSON Patch.
 
 Request Example:
 ``` json
-Copy code
+
 [
     {
         "op": "replace",
